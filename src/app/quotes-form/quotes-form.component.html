@@ -2,36 +2,42 @@
   <h1>Quotes</h1>
   <hr>
   <div class="row">
-    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
-      <div class="form-groups">
+    <div class="col-md-6">
+      <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+        <div class="form-groups">
 
-        <label for="quote">Quote</label>
-        <input type="text" class="form-control" id="quote" required [(ngModel)]="newQuotes.quote" name="quote" #quote="ngModel">
-        <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
-          Quote is Required.
+          <label for="quote">Quote</label>
+          <input type="text" class="form-control" id="quote" required [(ngModel)]="newQuotes.quote" name="quote" #quote="ngModel">
+          <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+            Quote is Required.
+          </div>
         </div>
-      </div>
-      <div class="form-groups">
+        <div class="form-groups">
 
-        <label for="author">Author</label>
-        <input type="text" class="form-control" id="author" required [(ngModel)]="newQuotes.author" name="author" #author="ngModel">
-        <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-          Author is Required.
+          <label for="author">Author</label>
+          <input type="text" class="form-control" id="author" required [(ngModel)]="newQuotes.author" name="author" #author="ngModel">
+          <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+            Author is Required.
+          </div>
         </div>
-      </div>
-      <br>
-      <div class="form-groups">
+        <br>
+        <div class="form-groups">
 
-        <label for="creation">Creation</label>
-        <input type="date" id="creation" required [(ngModel)]="newQuotes.creation" name="creation" #creation="ngModel">
-        <div [hidden]="creation.valid || creation.pristine" class="alert alert-danger">
-          Creation date is Required.
+          <label for="creation">Creation</label>
+          <input type="date" id="creation" required [(ngModel)]="newQuotes.creation" name="creation" #creation="ngModel">
+          <div [hidden]="creation.valid || creation.pristine" class="alert alert-danger">
+            Creation date is Required.
+          </div>
         </div>
-      </div>
-      <br>
-      <button class="button btn-primary" btn-lg>Add Quote!</button>
-      <br>
-      <br>
-    </form>
+        <br>
+        <button class="button btn-primary" btn-lg>Add Quote!</button>
+        <br>
+        <br>
+      </form>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <p class="life-container" ngFor="let quote of quotes">
+      {{quotes}}
   </div>
 </div>
