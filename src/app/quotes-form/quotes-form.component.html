@@ -2,7 +2,7 @@
   <h1>Quotes</h1>
   <hr>
   <div class="row">
-    <form #quoteForm='ngForm'>
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
       <div class="form-groups">
 
         <label for="quote">Quote</label>
