@@ -8,20 +8,20 @@ Moringa School core IP1
 
 ## Description
 
-_Quotes is a web application built using Angular 5 application.
+_Quotes is a web application built using Angular 5 application._
 
-The applications allows users to do the following:
+_The applications allows users to do the following:_
 
-*Create a new quote
-*Upvote or downvote a quote
-See the number of upvotes and number of downvotes for each quote
-See created by
-Delete a quote_
+_Create a new quote_
+_Upvote or downvote a quote_
+_See the number of upvotes and number of downvotes for each quote_
+_See created by_
+_Delete a quote_
 
 ## Setup/Installation Requirements
 
-_*Make sure you have node,npm, tsc and watchman installed._
-_*Clone this repository from my Github named JanetIsak._
+_Make sure you have node,npm, tsc and watchman installed._
+_Clone this repository from my Github named JanetIsak._
 _Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files._
 _Go to https://janetisak.github.io/Quotes/ for more information._
 

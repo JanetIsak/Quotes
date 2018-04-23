@@ -7,7 +7,7 @@
     <app-quotes-form (quoteContent)="addNewQuote($event)"></app-quotes-form>
 
     <div *ngFor="let quote of quotes;let i='index' ">
-      <h2>Quote Details</h2>
+      <h4>Quote Details</h4>
       <p>{{quote.quote}}</p>
       <button class="btn btn-primary " (click)='toogleDetails(i)'>Quote Details</button>
 
