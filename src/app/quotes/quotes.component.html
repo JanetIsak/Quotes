@@ -1,0 +1,19 @@
+<!-- <app-quote></app-quote> -->
+<h1>Hello I'm Janet</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <app-quotes-form (quoteContent)="addNewQuote($event)"></app-quotes-form>
+    </div>
+    <div class="col-md-6" *ngFor="let quote of quotes;let i='index' ">
+
+      <h3>{{quote.quote}}</h3>
+      <button class="btn btn-primary " (click)='toogleDetails(i)'>Quote Details</button>
+
+      <div class="row">
+        <app-quote-details *ngIf="quote.showDetails" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+      </div>
+
+    </div>
+  </div>
+</div>

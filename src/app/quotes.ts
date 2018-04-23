@@ -1,10 +1,12 @@
 export class Quotes {
-public showDescription:boolean;
-  constructor(public quote:string,
+public showDetails:boolean;
+  constructor(
+    public quote:string,
     public author:string,
-    public upvote:number,
-    public downvote:number,
-     public creation:Date) {
-       this.showDescription:false
+    public user:string,
+    public upVotes:number,
+    public downVotes:number,
+     public creation:Date = new Date()) {
+this.showDetails=false;
      }
 }
