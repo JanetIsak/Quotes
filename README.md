@@ -1,31 +1,46 @@
-<<<<<<< HEAD
-# Quotes
+Quetes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+# _Moringa School core IP1_
 
-## Development server
+#### _04.23.2018 _
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By _**Janet Isak**_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Quotes is a web application built using Angular 5 application.
 
-## Build
+The applications allows users to do the following:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Create a new quote
+Upvote or downvote a quote
+See the number of upvotes and number of downvotes for each quote
+See created by
+Delete a quote_
 
-## Running unit tests
+## Setup/Installation Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Make sure you have node,npm, tsc and watchman installed._
+_Clone this repository from my Github named JanetIsak._
+_Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files._
+_Go to https://janetisak.github.io/Quotes/ for more information._
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Known Bugs
 
-## Further help
+_The application submits blank form and adds empty quote details to the quotes list._
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# Quotes
->>>>>>> c029a584f1839a29c63d7fa1bdd78039831da5d4
+## Support and contact details
+
+_If you run into any issues or have questions, ideas or concerns, contact me at **janetisak@yahoo.com**. I encourage you to make a contribution to the code if see fit for improvement._
+
+## Technologies Used
+
+_Angular JS_
+_HTML & CSS_
+
+### License
+
+*This software is Licensed under the MIT License.*
+
+Copyright (c) 2018 **_Janet Isak_**
