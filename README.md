@@ -10,7 +10,7 @@ Moringa School core IP1
 
 * _Quotes is a web application built using Angular 5 application._
 
-* _The applications allows users to do the following:_
+_The applications allows users to do the following:_
 
 * _Create a new quote_
 * _Upvote or downvote a quote_
