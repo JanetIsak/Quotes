@@ -1,0 +1,5 @@
+<p>{{quote.user}}</p>
+<button class="btn btn-success" (click)='upVote()'> Like!{{quote.upVotes}} </button>
+<button class="btn btn-danger" (click)='downVote()'> Dislike!{{quote.downVotes}} </button>
+<p>created ({{quote.creation|dateCount}}) days ago</p>
+<button class="btn btn-danger" (click)='quoteComplete(true)'> Delete Quote </button>
